@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import Typewriter from 'typewriter-effect';
 
 
 
@@ -16,22 +15,8 @@ const Hero = () => {
       <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
         I AM
         <br className="hidden lg:inline-block" />
-        <Typewriter
-  options={{
-    strings: [
-      'BEGINNER',
-      'AUTO CAD DESGINNER',
-      'DONE TROUBLE-SHOOTING OF COMPUTER',
-      'AIRCRAFT AERONAUTICAL ENGINEERING',
-      'WORKING ON ALMS(PAKISTAN AUTOMATIC LOGISTIC MANAGEMENT SYSTEM)'
-
-    
-    
-    ],
-    autoStart: true,
-    loop: true,
-  }}
-/>
+      BEGINNER,AUTO CAD DESGINNER,TROUBLE-SHOOTING OF COMPUTER,
+      WORKING ON ALMS(AUTOMATIC LOGISTIC MANAGEMENT SYSTEM)
       </h1>
       <div className="w-[100px] h-[2px] bg-indigo-700"></div>
       <p className="mb-8 leading-relaxed">
